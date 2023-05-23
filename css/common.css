@@ -1,4 +1,5 @@
 @import "layout.css";
+@import "style.css";
 
 /* 
     RESET
@@ -20,4 +21,23 @@
     --secondary-color: #9792E4:
 }
 
+/* 
+    GENERAL
+*/
 
+.button{
+
+}
+
+/* 
+    RESPONSIVE
+*/
+
+@media screen and (min-width: 768px){
+    
+}
+
+
+@media screen and (min-width: 992px){
+
+}

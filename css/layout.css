@@ -5,3 +5,25 @@
 .row{
     display: flex;
 }
+
+.container-big{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* 
+    HEADER
+*/
+
+header{
+    background-color: var(--main-color);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+header .col{
+    width: 50%;
+}
