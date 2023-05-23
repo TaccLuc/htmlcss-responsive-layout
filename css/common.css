@@ -63,6 +63,12 @@
         margin: 0 0.9375rem;
         width: calc((100% / 2) -  1.875rem);
     }
+
+    /* ABOUT US */
+
+    .about-us .col{
+        width: 50%;
+    }
 }
 
 

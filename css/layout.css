@@ -64,6 +64,9 @@ main{
     background-color: var(--secondary-color);
 }
 
+/* ABOUT US SECTION */
+
+
 /* 
     DEBUG
 */
@@ -82,4 +85,8 @@ section .col{
 
 .benefits .col{
     background-color: lightsalmon;
+}
+
+.about-us .col{
+    background-color: lightgreen;
 }
