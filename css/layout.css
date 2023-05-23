@@ -12,20 +12,19 @@
 }
 
 .container{
-    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
 }
 
 main section{
-    margin-bottom: 6.25rem;
+    margin-bottom: 5rem;
 }
+
 /* 
     HEADER
 */
 
 header{
-    background-color: var(--main-color);
     position: fixed;
     top:0;
     left: 0;
@@ -47,7 +46,7 @@ main{
 /* DEMO SECTION */
 
 .demo .col{
-    background-color: var(--main-color-variation);
+    margin-bottom: 2rem;
 }
 
 /* PLANNING SECTION */
@@ -70,6 +69,7 @@ main{
 /* 
     FOOTER
 */
+
 footer{
     text-align: center;
 }
@@ -95,10 +95,6 @@ footer .col{
 /* 
     DEBUG
 */
-
-main section .col{
-    height: 30rem;
-}
 
 .planning .col{
     background-color: lightcoral;

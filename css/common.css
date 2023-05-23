@@ -18,19 +18,11 @@
 :root{
     --main-color: #0084FD;
     --main-color-variation: #B5DDFF;
+    --main-color-hover: #55a7f3;
     --secondary-color: #9792E4;
     --tertiary-color: #333333;
 }
 
-/* 
-    GENERAL
-*/
-
-.button{
-    border: 0px;
-    border-radius: 1rem;
-    padding: .625rem 1rem;
-}
 
 /* 
     RESPONSIVE
@@ -43,19 +35,30 @@
 
     /* DEMO */
 
-    .demo .row{
+    .demo .container > .row{
         margin: 0 -.625rem;
     }
 
-    .demo .col:first-of-type{
+    .demo .container > .row > .col:first-of-type{
         width: calc(((100% / 3) * 2) - 1.875rem);
+        padding-bottom: 0;
     }
 
-    .demo .col{
-        margin: 0 0.9375rem;
+    .demo .container > .row > .col:first-of-type .center-text{
+        text-align: left;
+    }
+
+    .demo .container > .row > .col{
+        margin: 0 0.9375rem 2rem 0.9375rem;
         width: calc((100% / 3) -  1.875rem);
     }
 
+    .demo .img-col{
+        width: 70%;
+        margin: 0;
+    }
+
+    
     /* BENEFITS */
     
     .benefits .row{
@@ -84,51 +87,69 @@
 
 @media screen and (min-width: 992px){
 
-      
-        /* GENERAL */
-
-        .container-small{
-            max-width: 1000px;
-            width: 80%;
-            margin: 0 auto;
-        }
-
-        /* HEADER */
-
-        header nav:first-of-type{
-            display: inline-block;
-        }
-
-        header nav:last-of-type{
-            display: none;
-        }
-
-        /* MAIN */
-
-        /* PLANNING */
-        .planning .container{
-            max-width: 1000px;
-            width: 80%;
-        }
-
-        .planning .col{
-            width: 50%;
-        }
-
-        /* BENEFITS */
     
-        .benefits .row{
-            margin: 0 -0.9375rem;
-        }
+    /* GENERAL */
 
-        .benefits .col{
-            margin: 0 0.9375rem;
-            width: calc((100% / 3) -  1.875rem);
-        }
-      
-        /* FOOTER */
+    .container{
+        max-width: 1200px;
+    }
 
-        footer .col{
-            width: 30%;
-        }  
+    .container-small{
+        max-width: 1000px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+
+    header nav:first-of-type{
+        display: inline-block;
+    }
+
+    header nav:last-of-type{
+        display: none;
+    }
+
+    /* MAIN */
+
+    /* DEMO */
+
+    .demo .container .row .col .row{
+        height: 100%;
+    }
+
+    .demo .container .row .col .row .col{
+        width: 50%;
+    }
+    
+    .demo .img-col{
+        padding-top: 3rem;
+    }
+
+    /* PLANNING */
+    .planning .container{
+        max-width: 1000px;
+        width: 80%;
+    }
+
+    .planning .col{
+        width: 50%;
+    }
+
+    /* BENEFITS */
+
+    .benefits .row{
+        margin: 0 -0.9375rem;
+    }
+
+    .benefits .col{
+        margin: 0 0.9375rem;
+        width: calc((100% / 3) -  1.875rem);
+    }
+    
+    /* FOOTER */
+
+    footer .col{
+        width: 30%;
+    }  
 }
