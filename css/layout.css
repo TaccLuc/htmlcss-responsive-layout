@@ -4,14 +4,14 @@
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
-
-.container-big{
+  
+.container{
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
 }
-
 
 /* 
     HEADER
@@ -19,11 +19,51 @@
 
 header{
     background-color: var(--main-color);
-    position: relative;
-    top: 0;
+    position: fixed;
+    top:0;
     left: 0;
+    width: 100%;
 }
 
 header .col{
     width: 50%;
+}
+
+/* 
+    MAIN
+*/
+
+main{
+    margin-top: 3.125rem;
+}
+
+/* DEMO SECTION */
+
+.demo .col{
+    background-color: var(--main-color-variation);
+    width: 100%;
+}
+
+/* PLANNING SECTION */
+
+.planning{
+    background-color: var(--secondary-color);
+}
+
+.planning .col{
+    width: 100%;
+}
+
+
+
+/* 
+    DEBUG
+*/
+
+section .col{
+    height: 30rem;
+}
+
+.planning .col{
+    background-color: lightcoral;
 }

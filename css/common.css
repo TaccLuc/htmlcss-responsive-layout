@@ -18,7 +18,7 @@
 :root{
     --main-color: #0084FD;
     --main-color-variation: #B5DDFF;
-    --secondary-color: #9792E4:
+    --secondary-color: #9792E4;
 }
 
 /* 
@@ -34,10 +34,56 @@
 */
 
 @media screen and (min-width: 768px){
-    
+
+
+    /* MAIN */
+
+    .demo .row{
+        margin: 0 -.625rem;
+    }
+
+    .demo .col:first-of-type{
+        width: calc(((100% / 3) * 2) - 1.25rem);
+    }
+
+    .demo .col{
+        margin: 0 .625rem;
+        width: calc((100% / 3) - 1.25rem);
+    }
+
 }
 
 
 @media screen and (min-width: 992px){
 
+      
+        /* GENERAL */
+
+        .container-small{
+            max-width: 1000px;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* HEADER */
+
+        header nav:first-of-type{
+            display: inline-block;
+        }
+
+        header nav:last-of-type{
+            display: none;
+        }
+
+        /* MAIN */
+
+        /* PLANNING */
+        .planning .container{
+            max-width: 1000px;
+            width: 80%;
+        }
+
+        .planning .col{
+            width: 50%;
+        }
 }
