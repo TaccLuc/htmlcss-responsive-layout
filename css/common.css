@@ -38,19 +38,31 @@
 
     /* MAIN */
 
+    /* DEMO */
+
     .demo .row{
         margin: 0 -.625rem;
     }
 
     .demo .col:first-of-type{
-        width: calc(((100% / 3) * 2) - 1.25rem);
+        width: calc(((100% / 3) * 2) - 1.875rem);
     }
 
     .demo .col{
-        margin: 0 .625rem;
-        width: calc((100% / 3) - 1.25rem);
+        margin: 0 0.9375rem;
+        width: calc((100% / 3) -  1.875rem);
     }
 
+    /* BENEFITS */
+    
+    .benefits .row{
+        margin: 0 -0.9375rem;
+    }
+
+    .benefits .col{
+        margin: 0 0.9375rem;
+        width: calc((100% / 2) -  1.875rem);
+    }
 }
 
 
@@ -85,5 +97,16 @@
 
         .planning .col{
             width: 50%;
+        }
+
+        /* BENEFITS */
+    
+        .benefits .row{
+            margin: 0 -0.9375rem;
+        }
+
+        .benefits .col{
+            margin: 0 0.9375rem;
+            width: calc((100% / 3) -  1.875rem);
         }
 }

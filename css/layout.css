@@ -6,7 +6,11 @@
     display: flex;
     flex-wrap: wrap;
 }
-  
+
+.col{
+    width: 100%
+}
+
 .container{
     max-width: 1200px;
     width: 90%;
@@ -44,7 +48,6 @@ main{
 
 .demo .col{
     background-color: var(--main-color-variation);
-    width: 100%;
 }
 
 /* PLANNING SECTION */
@@ -53,14 +56,12 @@ main{
     background-color: var(--secondary-color);
 }
 
-.planning .col{
-    width: 100%;
-}
-
 /* TESTIMONIALS SECTION */
 
-.testimonials .col{
-    width: 100%;
+/* BENEFITS */
+
+.benefits{
+    background-color: var(--secondary-color);
 }
 
 /* 
@@ -77,4 +78,8 @@ section .col{
 
 .testimonials .col{
     background-color: lightskyblue;
+}
+
+.benefits .col{
+    background-color: lightsalmon;
 }
