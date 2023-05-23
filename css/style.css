@@ -167,3 +167,53 @@ header nav:last-of-type div{
 .demo .img-col img{
     display: block;
 }
+
+/* PLANNING SECTION */
+
+.planning .plan-1 img{
+    padding: 3rem 0;
+}
+
+.planning .plan-1 h3{
+    color:white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.planning .plan-1 p{
+    color:white;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.planning .plan-2{
+    background-color: white;
+    border-radius: 2.5rem;
+    padding: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.planning .plan-2 h3{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.planning .plan-2 p{
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.planning .plan-2 div{
+    margin: 3rem auto;
+}
+
+.planning .plan-2 div a{
+    background-color: var(--secondary-color);
+    padding: 1rem 1.25rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}

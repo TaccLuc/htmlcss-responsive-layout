@@ -91,23 +91,3 @@ footer .col{
 .bottom-footer{
     background-color: var(--tertiary-color);
 }
-
-/* 
-    DEBUG
-*/
-
-.planning .col{
-    background-color: lightcoral;
-}
-
-.testimonials .col{
-    background-color: lightskyblue;
-}
-
-.benefits .col{
-    background-color: lightsalmon;
-}
-
-.about-us .col{
-    background-color: lightgreen;
-}

@@ -58,6 +58,13 @@
         margin: 0;
     }
 
+    /* PLANNING */
+
+    .planning .plan-1 h3{
+        text-align: left;
+        font-size: 4.5rem;
+        margin: 3rem 0;
+    }
     
     /* BENEFITS */
     
@@ -132,8 +139,24 @@
         width: 80%;
     }
 
+    .planning .row{
+        justify-content: space-between;
+    }
+
     .planning .col{
-        width: 50%;
+        width: 45%;
+    }
+
+    .planning .plan-1 h3{
+        font-size: 2rem;
+    }
+
+    .planning .plan-1 img{
+        margin-bottom: 15rem;
+    }
+
+    .planning .plan-2{
+        margin-top: 20rem;
     }
 
     /* BENEFITS */
