@@ -5,10 +5,19 @@
 header a{
     color: white;
     text-decoration: none;
+    padding: 1.25rem 0;
+}
+
+header li:hover a{
+    text-decoration: underline;
 }
 
 header .row{
     justify-content: space-between;
+}
+
+header #logo{
+    padding: 1rem 0;
 }
 
 header .col:last-of-type{
@@ -25,5 +34,34 @@ header nav ul{
 
 header nav ul li{
     display: inline-block;
-    padding: 0 1rem;
+    margin: 0 .3rem;
+}
+
+header .hamburger{
+    border: 0px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.8rem;
+}
+
+header nav:first-of-type{
+    padding: 1.25rem 0;
+    font-size: 1.15rem;
+}
+
+header nav:first-of-type button{
+    background-color: white;
+}
+
+header nav:first-of-type button:hover  a{
+    color: var(--main-color)
+}
+
+header nav:first-of-type button a{
+    color: black;
+    font-size: 0.9375rem;
+}
+
+header nav:last-of-type div{
+    padding: 1.25rem 0;
 }
