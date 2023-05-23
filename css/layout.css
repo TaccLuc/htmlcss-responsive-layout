@@ -13,6 +13,9 @@
     margin: 0 auto;
 }
 
+section{
+    margin-bottom: 6.25rem;
+}
 /* 
     HEADER
 */
@@ -54,7 +57,11 @@ main{
     width: 100%;
 }
 
+/* TESTIMONIALS SECTION */
 
+.testimonials .col{
+    width: 100%;
+}
 
 /* 
     DEBUG
@@ -66,4 +73,8 @@ section .col{
 
 .planning .col{
     background-color: lightcoral;
+}
+
+.testimonials .col{
+    background-color: lightskyblue;
 }
