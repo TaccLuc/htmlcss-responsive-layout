@@ -17,7 +17,7 @@
     margin: 0 auto;
 }
 
-section{
+main section{
     margin-bottom: 6.25rem;
 }
 /* 
@@ -68,10 +68,35 @@ main{
 
 
 /* 
+    FOOTER
+*/
+footer{
+    text-align: center;
+}
+
+footer .row{
+    justify-content: center;
+}
+
+footer .col{
+    width: 90%;
+}
+
+/* TOP FOOTER */
+.top-footer{
+    background-color: var(--secondary-color);
+}
+
+/* TOP FOOTER */
+.bottom-footer{
+    background-color: var(--tertiary-color);
+}
+
+/* 
     DEBUG
 */
 
-section .col{
+main section .col{
     height: 30rem;
 }
 

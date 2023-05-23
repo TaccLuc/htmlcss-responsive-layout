@@ -19,6 +19,7 @@
     --main-color: #0084FD;
     --main-color-variation: #B5DDFF;
     --secondary-color: #9792E4;
+    --tertiary-color: #333333;
 }
 
 /* 
@@ -69,6 +70,13 @@
     .about-us .col{
         width: 50%;
     }
+
+    /* FOOTER */
+
+    footer .col{
+        width: 50%;
+    }  
+
 }
 
 
@@ -115,4 +123,10 @@
             margin: 0 0.9375rem;
             width: calc((100% / 3) -  1.875rem);
         }
+      
+        /* FOOTER */
+
+        footer .col{
+            width: 30%;
+        }  
 }
