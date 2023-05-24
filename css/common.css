@@ -31,6 +31,11 @@
 
 @media screen and (min-width: 768px){
 
+    /* HEADER */
+
+    header .row{
+        margin-left: .3125rem;
+    }
 
     /* MAIN */
 
@@ -149,11 +154,11 @@
     /* GENERAL */
 
     .container{
-        max-width: 1200px;
+        max-width: 75rem;
     }
 
     .container-small{
-        max-width: 1000px;
+        max-width: 62.5rem;
         width: 80%;
         margin: 0 auto;
     }
@@ -191,7 +196,7 @@
 
     /* PLANNING */
     .planning .container{
-        max-width: 1000px;
+        max-width: 62.5rem;
         width: 80%;
     }
 
