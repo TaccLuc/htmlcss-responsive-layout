@@ -66,6 +66,21 @@
         margin: 3rem 0;
     }
     
+    /* TESTIMONIALS */
+
+    .row.test-col .col:first-of-type{
+        width: 40%;
+    }
+
+    .row.test-col .col:last-of-type{
+        width: 60%;
+        text-align: left;
+    }
+
+    .row.test-col .col:last-of-type h3{
+        font-size: 1.4rem;
+    }
+
     /* BENEFITS */
     
     .benefits .row{
@@ -157,6 +172,22 @@
 
     .planning .plan-2{
         margin-top: 20rem;
+    }
+    
+    /* TESTIMONIALS */
+
+    .row.test-col{
+        justify-content: space-between;
+    }
+
+    .row.test-col .col:first-of-type{
+        width: 20%;
+    }
+
+    .row.test-col .col:last-of-type{
+        width: 75%;
+        text-align: left;
+        padding-top: 4rem;
     }
 
     /* BENEFITS */
