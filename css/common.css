@@ -100,8 +100,16 @@
 
     /* ABOUT US */
 
-    .about-us .col{
-        width: 50%;
+    .about-us .col:first-of-type{
+        width: 60%;
+    }
+
+    .about-us .col:last-of-type{
+        width: 40%;
+    }
+
+    .about-us .about-col h2{
+        font-size: 5rem;
     }
 
     /* FOOTER */
@@ -202,6 +210,29 @@
         width: calc((100% / 3) -  1.875rem);
     }
     
+    /* ABOUT US */
+
+    .about-us .col:first-of-type{
+        width: 75%;
+    }
+
+    .about-us .col:last-of-type{
+        width: 25%;
+    }
+
+    .about-us .about-col:last-of-type p{
+        font-size: 1.5rem;
+    }
+
+    .about-us .col:last-of-type button{
+        padding: .625rem;
+    }
+
+    .about-us .col:last-of-type button a{
+        font-size: .9rem;
+    }
+
+
     /* FOOTER */
 
     footer .col{
