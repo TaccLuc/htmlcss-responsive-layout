@@ -114,9 +114,22 @@
 
     /* FOOTER */
 
-    footer .col{
-        width: 50%;
-    }  
+    .top-footer .container > *{
+        margin-bottom: 3rem;
+    }
+
+    .top-footer h2:first-of-type{
+        font-size: 3rem; 
+    }
+
+    .top-footer h2:last-of-type{
+        font-size: 6rem; 
+    }
+
+    .top-footer p{
+        width: 60%;
+        margin: 0 auto;
+    }
 
 }
 
@@ -242,7 +255,8 @@
 
     /* FOOTER */
 
-    footer .col{
-        width: 30%;
-    }  
+    .top-footer p{
+        width: 40%;
+        margin: 0 auto;
+    }
 }

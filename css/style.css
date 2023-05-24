@@ -11,7 +11,7 @@ img{
 
 .button{
     border: 0px;
-    border-radius: 1rem;
+    border-radius: 1.875rem;
     padding: .625rem 1rem;
 }
 
@@ -391,3 +391,67 @@ header nav:last-of-type div{
     font-size: 1rem;
     padding: .625rem;
 }
+
+/* FOOTER */
+
+footer {
+    color: white;
+}
+
+/* TOP FOOTER */
+
+.top-footer{
+    padding: 4rem 0; 
+}
+
+.top-footer .container > *{
+    margin-bottom: 2rem; 
+}
+
+.top-footer h3:first-of-type{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.top-footer h3:last-of-type{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.top-footer h3:last-of-type a{
+    color: white;
+}
+
+.top-footer h2:first-of-type{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.top-footer h2:last-of-type{
+    font-weight: 700;
+    font-size: 5rem;
+    color: #FDC15F;
+}
+
+.top-footer p{
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.top-footer button {
+    padding: 1rem 5rem;
+}
+
+.top-footer button a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.top-footer button:hover a{
+    text-decoration: underline;
+}
+
+/* BOTTOM FOOTER */
+

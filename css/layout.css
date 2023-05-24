@@ -71,17 +71,6 @@ main{
     FOOTER
 */
 
-footer{
-    text-align: center;
-}
-
-footer .row{
-    justify-content: center;
-}
-
-footer .col{
-    width: 90%;
-}
 
 /* TOP FOOTER */
 .top-footer{
