@@ -339,10 +339,6 @@ header nav:last-of-type div{
 
 /* ABOUT US SECTION */
 
-.about-us .row{
-    align-items: center;
-}
-
 .about-us .about-col h2{
     color: var(--secondary-color);
     font-size: 3rem;
