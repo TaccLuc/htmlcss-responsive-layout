@@ -88,7 +88,7 @@ header .hamburger{
 
 header nav:first-of-type{
     padding: 1.25rem 0;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 header nav:first-of-type button{
@@ -245,14 +245,18 @@ header nav:last-of-type div{
 .testimonials p{
     font-size: 1.5rem;
     line-height: 2.5rem;
-    margin-bottom: 3rem;
 }
 
 .testimonials .test-col{
     background-color: var(--secondary-color);
     border-radius: 2rem;
-    padding: 1.25rem 0;
+    padding: .5rem 0;
     color: white;
+    align-items: center;
+}
+
+.testimonials .test-col .col:first-of-type{
+    flex-shrink: 0;
 }
 
 .testimonials .test-col p{
@@ -261,21 +265,13 @@ header nav:last-of-type div{
 }
 
 .testimonials .test-col p i{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .testimonials .test-col h3{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-}
-
-.testimonials .test-col .image-cropper {
-    width: 13rem;
-    height: 13rem;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto;
 }
 
 .testimonials .test-col .image-cropper{
@@ -283,11 +279,9 @@ header nav:last-of-type div{
 }
 
 .testimonials .test-col .image-cropper img {
-    display: inline;
-    margin: 0 auto;
-    margin-left: -25%;
+    width: 100%;
     height: 100%;
-    width: auto;
+    object-fit: cover;
 }
 
 /* BENEFITS SECTION*/
@@ -345,6 +339,10 @@ header nav:last-of-type div{
 
 /* ABOUT US SECTION */
 
+.about-us .row{
+    align-items: center;
+}
+
 .about-us .about-col h2{
     color: var(--secondary-color);
     font-size: 3rem;
@@ -380,7 +378,6 @@ header nav:last-of-type div{
 
 .about-us .about-col button{
     background-color: var(--secondary-color);
-    padding: .8rem 2rem;
     margin-top: 2rem;
 }
 
@@ -392,4 +389,5 @@ header nav:last-of-type div{
     color: white;
     text-decoration: none;
     font-size: 1rem;
+    padding: .625rem;
 }

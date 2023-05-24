@@ -20,7 +20,7 @@
     --main-color-variation: #B5DDFF;
     --main-color-hover: #55a7f3;
     --secondary-color: #9792E4;
-    --secondary-color-hover:rgb(182, 179, 228)4;
+    --secondary-color-hover:rgb(182, 179, 228);
     --tertiary-color: #333333;
 }
 
@@ -138,8 +138,17 @@
 
     /* HEADER */
 
+    header #logo{
+        width: 4rem;
+    }
+
+    header .row{
+        align-items: center;
+    }
+
     header nav:first-of-type{
         display: inline-block;
+        padding: 1rem 0;
     }
 
     header nav:last-of-type{
@@ -166,23 +175,22 @@
 
     .planning .row{
         justify-content: space-between;
+        align-items: flex-end;
     }
 
     .planning .col{
         width: 45%;
     }
 
+    .planning .plan-1 img{
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+    }
+
     .planning .plan-1 h3{
         font-size: 2rem;
     }
 
-    .planning .plan-1 img{
-        margin-bottom: 15rem;
-    }
-
-    .planning .plan-2{
-        margin-top: 20rem;
-    }
     
     /* TESTIMONIALS */
 
@@ -197,7 +205,6 @@
     .row.test-col .col:last-of-type{
         width: 75%;
         text-align: left;
-        padding-top: 4rem;
     }
 
     /* BENEFITS */
