@@ -20,6 +20,7 @@
     --main-color-variation: #B5DDFF;
     --main-color-hover: #55a7f3;
     --secondary-color: #9792E4;
+    --secondary-color-hover:rgb(182, 179, 228)4;
     --tertiary-color: #333333;
 }
 
@@ -87,11 +88,13 @@
     /* BENEFITS */
     
     .benefits .row{
-        margin: 0 -0.9375rem;
+        margin-left: -0.9375rem;
+        margin-right: -0.9375rem;
     }
 
     .benefits .col{
-        margin: 0 0.9375rem;
+        margin-left: 0.9375rem;
+        margin-right: 0.9375rem;
         width: calc((100% / 2) -  1.875rem);
     }
 
@@ -192,11 +195,10 @@
     /* BENEFITS */
 
     .benefits .row{
-        margin: 0 -0.9375rem;
+        padding-bottom: 3rem;
     }
 
     .benefits .col{
-        margin: 0 0.9375rem;
         width: calc((100% / 3) -  1.875rem);
     }
     

@@ -136,11 +136,6 @@ header nav:last-of-type div{
     padding: .8rem 3rem;
 }
 
-.demo button{
-    background-color: var(--main-color);
-    padding: .8rem 3rem;
-}
-
 .demo button:hover{
     background-color: var(--main-color-hover);
 }
@@ -280,4 +275,58 @@ header nav:last-of-type div{
     margin-left: -25%;
     height: 100%;
     width: auto;
+}
+
+/* BENEFITS */
+
+.benefits .container > h2{
+    color: white;
+    font-size: 2.5rem;
+    padding: 4rem 1rem;
+}
+
+.benefits .benefits-col{
+    border-radius: 2rem;
+    padding: 2rem 1.25rem;
+    background-color: white;
+    color: var(--secondary-color);
+    margin-bottom: 3rem;
+}
+
+.benefits .benefits-col h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.benefits .benefits-col h3{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.benefits .benefits-col h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.benefits .benefits-col p{
+    line-height: 2.3rem;
+    padding-bottom: 2rem;
+    color: rgb(83, 83, 83);
+    font-weight: 400;
+}
+
+.benefits .benefits-col button{
+    background-color: var(--secondary-color);
+    padding: .8rem 3rem;
+}
+
+
+.benefits .benefits-col button:hover{
+    background-color: var(--secondary-color-hover);
+}
+
+.benefits .benefits-col button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
 }
