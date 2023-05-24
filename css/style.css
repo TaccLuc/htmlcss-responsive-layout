@@ -159,9 +159,16 @@ header nav:last-of-type div{
     padding-bottom: 0;
 }
 
+.demo .container > .row > .col > .row{
+    justify-content: center;
+}
+
 .demo .img-col{
     padding-bottom: 0;
-    margin: 0 auto;
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    max-width: 400px;
 }
 
 .demo .img-col img{
@@ -241,7 +248,7 @@ header nav:last-of-type div{
 .testimonials .test-col{
     background-color: var(--secondary-color);
     border-radius: 2rem;
-    padding: 1.25rem;
+    padding: 1.25rem 0;
     color: white;
 }
 
@@ -261,9 +268,8 @@ header nav:last-of-type div{
 }
 
 .testimonials .test-col .image-cropper {
-    width: 14rem;
-    height: 14rem;
-    position: relative;
+    width: 13rem;
+    height: 13rem;
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto;
