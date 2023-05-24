@@ -455,3 +455,22 @@ footer {
 
 /* BOTTOM FOOTER */
 
+.bottom-footer{
+    padding-top: 3rem;
+}
+
+.bottom-footer p{
+    font-size: 0.9rem;
+    padding-bottom: 4rem;
+}
+
+.bottom-footer h4{
+    width: 90%;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.bottom-footer h4 a{
+    color: var(--secondary-color)
+}

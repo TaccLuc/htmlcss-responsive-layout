@@ -131,6 +131,15 @@
         margin: 0 auto;
     }
 
+    .bottom-footer p{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .bottom-footer h4{
+        width: 50%;
+    }
+
 }
 
 
@@ -259,4 +268,14 @@
         width: 40%;
         margin: 0 auto;
     }
+    
+    .bottom-footer p{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .bottom-footer h4{
+        width: 30%;
+    }
+
 }
